@@ -431,3 +431,15 @@ a{
         font-size: 1.6rem;
     }
 }
+
+/*Grids*/
+
+.grid{
+    display: grid;
+}
+
+@media screen and (min-width:768px) {
+    .grid__cols-2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
