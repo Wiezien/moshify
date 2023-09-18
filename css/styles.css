@@ -624,6 +624,7 @@ a{
 }
 
 .block__header{
+    margin-bottom: 4rem;
     text-align: center;
 }
 
